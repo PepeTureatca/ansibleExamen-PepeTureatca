@@ -6,15 +6,8 @@
 all:
   hosts:
     web1:
-      # 🎯 IP de la máquina cliente (VM donde instalaremos la app)
-      # EN EL EXAMEN: Cambia esto por la IP que te den
-      # EJEMPLO: 192.168.1.100, 10.0.0.50, etc.
-      ansible_host: 13.223.170.186
-
-      # 👤 Usuario SSH para acceder a la máquina cliente
-      # IMPORTANTE: Debe ser el mismo usuario al que le enviaste la llave pública
-      # EN EL EXAMEN: Si el usuario es distinto (ej: ubuntu, ansible), cámbialo aquí
-      ansible_user: deploy
+      ansible_host: 18.213.177.44
+      ansible_user: ubuntu
 
       # 🔑 Ruta a la clave privada SSH (.pem) para AWS
       # IMPORTANTE: Sube tu archivo .pem al workspace y actualiza la ruta aquí
