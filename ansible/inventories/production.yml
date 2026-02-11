@@ -7,7 +7,7 @@ all:
   hosts:
     web1:
       ansible_host: 18.213.177.44
-      ansible_user: ubuntu
+      ansible_user: deploy
 
       # 🔑 Ruta a la clave privada SSH (.pem) para AWS
       # IMPORTANTE: Sube tu archivo .pem al workspace y actualiza la ruta aquí
